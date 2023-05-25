@@ -11,7 +11,7 @@
     --text-color: #302e29;
     --main-color: #FF00FF;
     --second-color: #000000;
-    --bg-color: white;
+    --bg-color: beige;
     --big-font: 4.5rem;
     --h2-font:2.6rem;
     --p-font: 1.1rem;
@@ -58,7 +58,7 @@ header {
 }
 .navbar a:hover{
     border-bottom: 2px solid var(--main-color);
-    color: var(--main-color);
+    color: rgb(235, 106, 51);
 }
 .h-icons{
 	display: flex;
@@ -99,9 +99,7 @@ header {
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
-.home-text h1:hover{
-	text-shadow: red -3px 0, cyan 3px 0;
-}
+
 .home-text p{
     font-size: var(--p-font);
     font-weight: 500;
@@ -140,9 +138,7 @@ header {
 	margin-bottom: 2rem;
 	line-height: 1.3;
 }
-.ourstory-text h2:hover{
-	text-shadow: red -3px 0, cyan 3px 0;
-}
+
 .ourstory-text p{
 	font-size: var(--p-font);
 	color: var(--second-color);
@@ -177,9 +173,7 @@ header {
 	justify-content: space-between;
 	padding: 15px 0;
 }
-.main-text h2:hover{
-	text-shadow: red -3px 0, cyan 3px 0;
-}
+
 .menu-left h4{
 	font-size: 23px;
 }
@@ -231,15 +225,13 @@ header {
 }
 .location-text h2{
 	font-size: var(--h2-font);
-	margin-bottom: 0.5rem;
+	margin-top: 30%;
 	line-height: 1.3;
 	align-items: center;
 	justify-content: center;
 	
 }
-.location-text h2:hover{
-	text-shadow: red -3px 0, cyan 3px 0;
-}
+
 iframe{
 	width: 400%;
 	height: 500px;
@@ -258,6 +250,7 @@ iframe{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	padding-top: 30%;
 	
 }
 .careers-text h2{
@@ -272,7 +265,8 @@ iframe{
 	width: auto;
 	padding: 25px 30px;
 	border-radius: 25px;
-	background: #FF00FF;
+	background: #cc99ff;
+	padding-top: 10%;
 	margin: auto;
 }
 .container .heading{
@@ -349,25 +343,24 @@ form .button input{
 	text-align: center	;
 	align-items: center;
 	gap: 20px;
+	padding-top: 30%;
 }
 .faq h1{
 	color: black;
 	font-size: var(--h2-font);
 }
-.faq-text h1:hover{
-	text-shadow: red -3px 0, cyan 3px 0;
-}
+
 .accordion-item{
-	background-color: #FF00FF;
+	background-color: #cc99ff;
 	border-radius: .4rem;
 	margin-bottom: 1rem;
 	padding: 1rem;
-	box-shadow: fuchsia;
+
 }
 .accordion-link{
 	font-size: 1.6rem;
-	color:  white;
-	background-color: #FF00FF;
+	color:  black;
+	background-color: #cc99ff;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -375,7 +368,7 @@ form .button input{
 	padding: 1rem 0;
 }
 .accordion-link i{
-	color: #e7d5ff;
+	color: black;
 	padding: .5rem;
 }
 .accordion-link .ion-md-remove{
@@ -385,7 +378,7 @@ form .button input{
 	max-height: 0;
 	overflow: hidden;
 	position: relative;
-	background-color: #FF00FF;
+	background-color: beige;
 	transition: max-height 2s ;
 }
 .answer::before{
@@ -393,14 +386,14 @@ form .button input{
 	position: absolute;
 	width: .6rem;
 	height: 90%;
-	background-color: #FF00FF;
+	background-color: beige;
 	top: 50%;
 	left: 0;
 	transform: translateY(-50%);
 }
 .answer p{
 	font-size: 1.4rem;
-	color: white;
+	color: black;
 	padding: 2rem;
 }
 .accordion-item:target .answer{
@@ -526,19 +519,19 @@ form .button input{
 	}
 	.menu{
 		height: auto;
-		width: max-content;
+		width: auto;
 	}
 	.location{
 		height: auto;
-		width: max-content;
+		width: auto;
 	}
 	.careers{
 		height: auto;
-		width: max-content;
+		width: auto;
 	}
 	.faq{
 		height: auto;
-		width: max-content;
+		width: auto;
 	}
     
     
