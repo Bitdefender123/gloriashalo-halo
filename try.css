@@ -393,6 +393,34 @@ form .button input{
 .accordion-item:target .accordion-link .ion-md-remove{
 	display: block;
 }
+.contact{
+	padding: 50px 15% 40px;
+}
+.main-contact{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	justify-content: center;
+	gap: 2rem;
+}
+.contact-content h1{
+	font-size: var(--h2-font);
+	color: var(--text-color);
+	margin-bottom: 1.5rem;
+}
+.contact-content li{
+	margin-bottom: 20px;
+}
+.contact-content li a{
+	display: block;
+	color: var(--text-color);
+	font-size: var(--p-font);
+	font-weight: 500;
+	transition: all .40s ease;
+}
+.contact-content li a:hover{
+	transform: translateX(10px);
+	color: var(--main-color);
+}
 .scroll-top{
 	position: fixed;
 	bottom: 2.2rem;
