@@ -25,4 +25,4 @@ const sr = ScrollReveal ({
 })
 sr.reveal('.home-text',{delay:200, origin:'left'});
 sr.reveal('.home-img',{delay:200, origin:'right'});
-sr.reveal('.container, .ourstory, .menu, .careers, .location, .faqs',{delay:100, origin:'bottom'});
+sr.reveal('.container, .ourstory, .menu, .delivery, .careers, .location, .faqs, .contact',{delay:100, origin:'bottom'});
