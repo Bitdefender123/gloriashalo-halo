@@ -626,6 +626,10 @@ form .button input{
 		height: auto;
 		width: auto;
 	}
+	.delivery{
+		height: auto;
+		width: auto;
+	}
 	.location{
 		height: auto;
 		width: auto;
@@ -638,6 +642,13 @@ form .button input{
 		width: auto;
 	}
 	.faq{
+		height: auto;
+		width: auto;
+	}.menu{
+		height: auto;
+		width: auto;
+	}
+	.contact{
 		height: auto;
 		width: auto;
 	}
