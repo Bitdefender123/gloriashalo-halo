@@ -17,8 +17,9 @@
     --p-font: 1.1rem;
 }
 body {
-    background: var(--bg-color);
-    color: var(--text-color);
+  
+background-image: url(background.jpg);
+background-size: cover;
 }
 
 header {
